@@ -1,3 +1,9 @@
+gnome-shell-extension-drive-menu (42.0.1) jammy; urgency=medium
+
+  * Include conflict with gnome-shell-extensions.
+
+ -- Nate Marti <nate_marti@sil.org>  Wed, 22 Jun 2022 20:02:01 +0100
+
 gnome-shell-extension-drive-menu (42) jammy; urgency=medium
 
   * Initial release.

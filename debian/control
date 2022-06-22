@@ -5,9 +5,7 @@ Maintainer: Nate Marti <nate_marti@sil.org>
 Build-Depends:
  debhelper-compat (= 13),
  dh-sequence-gnome,
-# jq,
  libglib2.0-bin,
-# meson,
 Standards-Version: 4.5.0
 Rules-Requires-Root: no
 Homepage: https://github.com/wasta-linux/gnome-shell-extension-drive-menu
@@ -19,6 +17,8 @@ Depends:
  gnome-shell (<< 43~),
  ${shlibs:Depends},
  ${misc:Depends}
+Conflicts:
+ gnome-shell-extensions
 Suggests:
  gnome-shell-extension-prefs,
 Description: Drive-menu support for GNOME Shell
